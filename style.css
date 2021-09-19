@@ -1,0 +1,49 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;  
+    padding: 0;            
+}
+header{
+    height: 388px;
+    background-color: blue;
+}
+.header-div{
+    border: 1px solid black;
+    padding-top: 40px;
+}
+.headerlogo{
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;   
+    padding-left: 150px;
+}
+nav{
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul{
+    border: 1px solid white;
+    padding-left: 400px;
+}
+nav li {
+    border: 1px solid white;
+    display: inline-block;
+    padding-right: 40px;
+}
+nav a{
+    border: 1px solid red;
+    color: white;
+}
+.header-contact{
+    border-radius: 28px;
+    background-color: #FFFFFF;
+    padding: 18px 36px 18px 43px;
+}
+.header-contact a{
+    color: #171717;
+}
+
+
+
