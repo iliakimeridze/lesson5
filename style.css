@@ -2,38 +2,40 @@
     text-decoration: none;
     list-style-type: none;
     margin: 0;  
-    padding: 0;            
+    padding: 0;      
+    box-sizing: border-box;      
 }
+/* START HEADER STYLES!!! */
 header{
     height: 388px;
     background-color: blue;
 }
 .header-div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-top: 40px;
 }
 .headerlogo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: inline-block;
     vertical-align: middle;   
     padding-left: 150px;
 }
 nav{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: inline-block;
     vertical-align: middle;
 }
 nav ul{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding-left: 400px;
 }
 nav li {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: inline-block;
     padding-right: 40px;
 }
 nav a{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: white;
 }
 .header-contact{
@@ -44,6 +46,39 @@ nav a{
 .header-contact a{
     color: #171717;
 }
-
-
-
+/* START SECTION STYLES!!! */
+section{
+    border: 1px solid black;
+    max-width: 1195px;
+    margin: 0 auto;
+}
+.section-main-image{
+    margin-top: -100px;
+    padding-bottom: 30px;   
+}
+.section-images{
+   margin-top: 60px;
+   margin-bottom: 60px;
+}
+.section-image{
+    border: 1px solid black;
+    margin-right: 14px;
+}
+.section-text{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 951px;
+    margin-bottom: 58px ;
+}
+.more-info{
+    border-radius: 28px;
+    background-color: blue;
+    padding: 18px 77px 18px 57px;
+    margin: 0 auto;
+    width: 341px;
+}
+.more-info-inside{
+    color: #FFFFFF;
+    text-align: center;
+}
+/* START FOOTER STYLES!!! */
